@@ -15,7 +15,3 @@ This is my personal knowledge base where I collect notes, thoughts, and ideas.
 - [[Chicago]]
 - [[Data-Guide|Data Guide]]
 - [[Saying-No|Saying No]]
-
----
-
-*This site is built with [Quartz](https://quartz.jzhao.xyz/), a fast static-site generator for digital gardens.*
