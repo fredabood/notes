@@ -24,6 +24,38 @@ a {
   }
 }
 
+// Article content links - light navy blue for better differentiation
+article {
+  a {
+    color: #5B7DB1; // Light navy blue
+    font-weight: 600;
+
+    &:hover {
+      color: #4A6FA0; // Slightly darker navy on hover
+    }
+
+    // Internal wiki-links
+    &.internal {
+      color: #5B7DB1;
+      background-color: rgba(91, 125, 177, 0.1); // Light navy background
+
+      &:hover {
+        color: #4A6FA0;
+        background-color: rgba(91, 125, 177, 0.15);
+      }
+    }
+
+    // External links
+    &.external {
+      color: #5B7DB1;
+
+      &:hover {
+        color: #4A6FA0;
+      }
+    }
+  }
+}
+
 // Sidebar styling - use dark green from fredabood.com
 .sidebar {
   // All text in sidebars uses dark green
