@@ -2,11 +2,11 @@
 
 ## Communication, Expectation Managment, and Prioritization
 
-## Execute, execute, execute
+### Execute, execute, execute
 
 The prerequisite to everything that follows in this article is you have to back it up with performance. Authority must be won by establishing a foundation of trust. Trust can only be established through a track record of success.
 
-## You’re the expert.
+### You’re the expert.
 
 be firm, direct, concise, and respectful. Don’t use filler words like um and like.
 
@@ -16,7 +16,7 @@ Phrasing such as “can we try this?” Or “would this be ok?” Gives the oth
 
 You would have been better off with a clear, direct statement that can’t be rejected such as “This is the best practice.”
 
-## Speak with authority.
+### Speak with authority.
 
 You can speak with authority because you’re the expert in the room.
 
@@ -36,7 +36,7 @@ When you don’t know the answer to a question, don’t avoid the question or da
 
 “This is how I think it might work based on my knowledge of related systems. I’ll confirm and get back to you.” 
 
-## Own your calendar.
+### Own your calendar.
 
 As the authority/expert on your subject area, your time is valuable and it’s in high demand. It’s your job to maximizing the return on your time when your various stakeholders often have competing priorities.
 
@@ -50,7 +50,7 @@ The answer to “Am I required on that call?” is usually no. However, if you a
 
 [https://paulgraham.com/makersschedule.html](https://paulgraham.com/makersschedule.html)
 
-## Weigh your priorities.
+### Weigh your priorities.
 
 Obviously weigh the pros and cons of the various things on your plate at the time when making these decisions. Don’t arbitrarily reject asks simply for the sake of setting expectations. Choose your battles wisely and you’ll notice the change over time.
 
@@ -60,7 +60,7 @@ The highest priority is not always the biggest deal or the most consumption. Som
 
 It’s important to use your authoritative voice when relaying your timelines and priorities to your stakeholders. Our stakeholders will gladly deprioritize our other work in favor of their need if we don’t speak authoritatively about what’s the most important for us and how we’re going to spend your time.
 
-## You can’t do everything.
+### You can’t do everything.
 
 We all have full calendars. So you can’t look at new tasks in a vaccuum when considering if you should take them on or how you should approach them. Every time you agree to do something you’re deliberately choosing not to do something else to make time for the thing you agreed to.
 
@@ -68,7 +68,7 @@ There are millions of reasons we might choose not to do something. Not limited t
 
 If you don’t have time to do something, pivot the ask or the timeline so the time trade off becomes a high value activity. Often times we can get 80% of the way to complete in 20% of the time and deliver nearly the same value. When that’s the case it doesn’t make sense to complete the task. Stakeholders get much more flexible when we this trade off apparent to them and asking them to help with reprioritizing work you’re doing for them in order to accommodate the new ask.
 
-## Delivering solutions vs solving problems.
+### Delivering solutions vs solving problems.
 
 When you’re asked to do something, use that as a moment for discovery. Stop and question why you’re being asked to do that thing and how it aligns to broader goals and initiatives. If you’re asked to deliver a solution, step back and identify the underlying problem. Rather than delivering a solution because you were asked to do it, be prescriptive about the best way to solve the underlying problem.
 
@@ -82,7 +82,7 @@ This also gives you the opportunity to do discovery with your stakeholder. Often
 
 “let’s take a step back…”
 
-## A Note on Email Management 
+### A Note on Email Management 
 
 Overall the strategy is a variation on inbox zero and it hinges on a couple of assumptions
 
@@ -90,7 +90,7 @@ My philosophy on email starts with the notion that emails arrive when the sender
 
 [Getting Things Done (GTD) Flowchart: A Complete Guide](https://www.zenflowchart.com/guides/gtd-flowchart)
 
-### Labeling
+#### Labeling
 
 Gmail has the concept of labels, while Outlook has folders. I prefer Gmail and labels, but this applies to Outlook’s folders as well.
 
@@ -98,7 +98,7 @@ I have filters established so labels are applied automatically based on the emai
 
 Auto-labelling of emails reduces the work required to keep archived emails properly sorted. This allows quick recall of emails containing important information (but no action items) after they’ve been archived.
 
-### Workflow
+#### Workflow
 
 I frequently send myself emails with “to do” list items so my email contains a complete list of everything I need to do. These notes-to-self get treated like any other email in the flow below.
 
@@ -116,7 +116,7 @@ This keeps your inbox relevant to what you’re working on and ensures it’s a 
 
 It has been an effective way for me to stay organized and ensures i don’t miss things.
 
-## Documentation & Meeting Attendance
+### Documentation & Meeting Attendance
 
 [https://www.cnbc.com/2023/04/28/stanford-professor-if-you-dont-want-to-be-in-a-meeting-just-leave-.html#:~:text=There%2520are%2520many%2520instances%2520where,to%252C%2527%E2%80%9D%2520he%2520says.](https://www.cnbc.com/2023/04/28/stanford-professor-if-you-dont-want-to-be-in-a-meeting-just-leave-.html#:~:text=There%2520are%2520many%2520instances%2520where,to%252C%2527%E2%80%9D%2520he%2520says.)
 

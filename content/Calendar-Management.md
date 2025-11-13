@@ -1,6 +1,6 @@
 # Automating my Calendar Management
 
-# The Stoplight System
+## The Stoplight System
 
 I manage my calendar using a stop light system to color code events. This is useful for maintaining a visually organized calendar where my obligations are easily distinguishable by color.​​​​​​​​​​​​​​​​
 
@@ -26,7 +26,7 @@ My system distinguishes between 4 categories of events
 - Non-meeting events like focus time and out of office
 - Focus Time, Out of Office, or events starting with “do not book”
 
-# Automated Event Color Coding
+## Automated Event Color Coding
 
 I wrote the below to automatically set event colors in my Google Calendar for the next 6 months according to this system.
 
@@ -42,7 +42,8 @@ There are separate arrays for different types of title matching.
     - Exact title matches (`skipEvents`). This is an array of full event names.
     - Title starts with certain text (`skipStartsWith`). This is an array of event name prefixes.
     - Title contains certain text (`skipContains`). The strings in this array can be anywhere in the event title. It’s also case insensititive. I use this to find office hours and all hands.
-1. Paste the code in AppScript and schedule it to run periodically.
+
+Paste the code in AppScript and schedule it to run periodically.
 
 ```javascript
 // https://developers.google.com/apps-script/reference/calendar/calendar-app
@@ -54,7 +55,7 @@ function ColorEvents() {
   Logger.log(today + " " + nextSixMonths);
 
   // https://developers.google.com/apps-script/reference/calendar/event-color
-  
+
   var emptyStatus = CalendarApp.GuestStatus.INVITED
 
   var yesStatus = CalendarApp.GuestStatus.YES
@@ -94,7 +95,7 @@ function ColorEvents() {
       e.setColor(dnbColor);
       continue;
     }
-  
+
     // RSVP Yes > Red
     if (yesStatus == myStatus) {
       e.setColor(yesColor);
