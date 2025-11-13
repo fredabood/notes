@@ -1,3 +1,7 @@
+---
+title: Chicago
+---
+
 # Activity Day/Date Ideas
 
 - [Water taxi](https://www.chicagowatertaxi.com) to Chinatown > [Dim Sum](https://www.theinfatuation.com/chicago/guides/the-best-dim-sum-restaurants-in-chicago) > walk in [Tom Ping Memorial Park](https://maps.app.goo.gl/LMkKcuuAyKuZEyU3A?g_st=ic)

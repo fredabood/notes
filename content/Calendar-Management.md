@@ -1,3 +1,7 @@
+---
+title: Calendar Management
+---
+
 # Automating my Calendar Management
 
 ## The Stoplight System

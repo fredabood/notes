@@ -1,4 +1,8 @@
-# A-Book-About-Food
+---
+title: A Book About Food
+---
+
+# A Book About Food
 
 ## Unrequested opinions from a non-expert.
 

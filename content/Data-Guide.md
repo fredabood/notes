@@ -1,3 +1,7 @@
+---
+title: Data Guide
+---
+
 ## Who am I and what is this doc?
 
 I have worked in the data space to some extent for my entire career. My technical skills are largely self-taught. I’ve worked in analytics, data engineering, and architecture, and have implemented data systems across multiple industries and scales. I’ve taught or helped people learn these skills who range from college grads to retirees, and from no programming experience to PHD statisticians.

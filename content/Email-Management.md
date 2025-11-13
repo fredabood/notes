@@ -1,3 +1,7 @@
+---
+title: Email Management
+---
+
 # A Note on Email Management 
 
 Overall the strategy is a variation on inbox zero and it hinges on a couple of assumptions
