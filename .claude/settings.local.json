@@ -18,7 +18,8 @@
       "Bash(git push:*)",
       "Bash(dig:*)",
       "WebFetch(domain:notes.fredabood.com)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(gh run list:*)"
     ],
     "deny": [],
     "ask": []
