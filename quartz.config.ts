@@ -27,26 +27,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#ffffff",
-          lightgray: "#f5f5f5",
-          gray: "#9ca3af",
-          darkgray: "#374151",
-          dark: "#1f2937",
-          secondary: "#3b82f6",
-          tertiary: "#6366f1",
-          highlight: "rgba(59, 130, 246, 0.1)",
-          textHighlight: "#fef3c7",
+          light: "#CED1DB",           // Background - exact match from fredabood.com
+          lightgray: "#B5BAC7",       // Slightly darker blue-gray for borders
+          gray: "#7A8390",            // Medium gray for secondary text
+          darkgray: "#025418",        // Main text - exact dark green from fredabood.com
+          dark: "#013410",            // Headings - darker green
+          secondary: "#027020",       // Links - medium green (complements the text)
+          tertiary: "#048832",        // Accent - brighter green
+          highlight: "rgba(2, 84, 24, 0.1)",   // Subtle green highlight
+          textHighlight: "#E8F5E9",   // Light green for text selection
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#60a5fa",
-          tertiary: "#818cf8",
-          highlight: "rgba(96, 165, 250, 0.15)",
-          textHighlight: "#fbbf2488",
+          light: "#1a1d21",           // Dark background
+          lightgray: "#2a2f35",       // Slightly lighter
+          gray: "#646464",            // Medium gray
+          darkgray: "#B8D4BC",        // Light green-tinted gray for text
+          dark: "#E8F5E9",            // Very light green for headings
+          secondary: "#66BB6A",       // Green links in dark mode
+          tertiary: "#81C784",        // Lighter green accent
+          highlight: "rgba(102, 187, 106, 0.15)",  // Green highlight
+          textHighlight: "#1B5E20",   // Dark green for selection
         },
       },
     },
