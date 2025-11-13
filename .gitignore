@@ -1,0 +1,15 @@
+# Quartz build artifacts
+.DS_Store
+node_modules
+public
+prof
+tsconfig.tsbuildinfo
+.obsidian
+.quartz-cache
+private/
+.replit
+replit.nix
+
+# System files
+*.log
+.env
