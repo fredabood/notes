@@ -38,14 +38,14 @@ const config: QuartzConfig = {
           textHighlight: "#E8F5E9",   // Light green for text selection
         },
         darkMode: {
-          light: "#1a1d21",           // Dark background
-          lightgray: "#2a2f35",       // Slightly lighter
-          gray: "#646464",            // Medium gray
-          darkgray: "#B8D4BC",        // Light green-tinted gray for text
-          dark: "#E8F5E9",            // Very light green for headings
-          secondary: "#66BB6A",       // Green links in dark mode
+          light: "#2C3540",           // Dark blue-gray background (darker version of #CED1DB)
+          lightgray: "#3D4854",       // Slightly lighter blue-gray
+          gray: "#7A8390",            // Medium gray (same as light mode)
+          darkgray: "#A8E6B0",        // Light green for text (readable on dark)
+          dark: "#C8F5D0",            // Very light green for headings
+          secondary: "#66BB6A",       // Medium green for links
           tertiary: "#81C784",        // Lighter green accent
-          highlight: "rgba(102, 187, 106, 0.15)",  // Green highlight
+          highlight: "rgba(168, 230, 176, 0.15)",  // Subtle green highlight
           textHighlight: "#1B5E20",   // Dark green for selection
         },
       },
