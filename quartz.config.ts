@@ -27,8 +27,8 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#CED1DB",           // Background - exact match from fredabood.com
-          lightgray: "#B5BAC7",       // Slightly darker blue-gray for borders
+          light: "#E7E9F0",           // Background - lighter blue-gray from fredabood.com
+          lightgray: "#CED1DB",       // Slightly darker blue-gray for borders/accents
           gray: "#7A8390",            // Medium gray for secondary text
           darkgray: "#025418",        // Main text - exact dark green from fredabood.com
           dark: "#013410",            // Headings - darker green
