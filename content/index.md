@@ -14,4 +14,5 @@ This is my personal knowledge base where I collect notes, thoughts, and ideas.
 - [[Calendar-Management|Calendar Management]]
 - [[Chicago]]
 - [[Data-Guide|Data Guide]]
+- [[Email-Management|Email Management]]
 - [[Saying-No|Saying No]]
