@@ -86,6 +86,8 @@ The comand line (and text editor) is the entry point to every programming langua
 
 Along those lines, git is extremely powerful. It is the defacto tool for version control and provides a baseline collaboration model. [Learn Git Branching](https://learngitbranching.js.org/) is the best Git tutorial I’ve found so far. It’s interactive so you see the results of every command you run relative to the goal for the problem.
 
+For a more robust guide on DevOps, [this git repo](https://github.com/milanm/DevOps-Roadmap) has a great walkthrough.
+
 ### Python vs R
 
 You’ll frequently hear the debate about Python vs R in the data world, and it may seem daunting to make the decision. Python is a general purpose programming language whereas R is a statistical programming language. So while R may be better suited for some of the frequent tasks when working with data, Python has a much wider breadth and can be used for pretty much anything.
