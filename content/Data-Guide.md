@@ -114,6 +114,108 @@ SQL is a fundamental tool for any data professional. It’s largely unavoidable 
 
 You’ll be way ahead of most SQL analysts If you have a solid grasp on execution [query execution order](https://builtin.com/data-science/sql-order-of-execution), [joins](https://towardsdatascience.com/explain-sql-joins-the-right-way-f6ea784b568b), [window functions](https://towardsdatascience.com/a-guide-to-advanced-sql-window-functions-f63f2642cbf9), and [where vs having clauses](https://towardsdatascience.com/commonly-asked-interview-question-where-vs-having-vs-qualify-1445a1d15902). If you can also perform them confidently in Pandas and Spark on top of SQL, you’ll be on another level.
 
+### SQL Quick Reference
+
+SQL (Structured Query Language) is used for querying, manipulating, defining, and controlling access to data in relational database management systems. There are several flavors of SQL created by different organizations, but most operate on the same basic principles with slightly different syntax.
+
+#### Select... From... Where...
+
+`SELECT` - these columns
+`FROM` - this table
+`WHERE` - these criteria are met
+
+Almost every query that extracts data from a database will have these three clauses in order to specify which data you need. They’re always used in the same order.
+
+For example:
+
+**Table:**
+
+| Year | Person | Income |
+| :--- | :----- | :----- |
+| 2016 | James  | 10,000 |
+| 2016 | Kate   | 11,000 |
+| 2016 | Sam    | 10,000 |
+| 2017 | James  | 10,000 |
+| 2017 | Kate   | 12,000 |
+| 2017 | Sam    | 11,000 |
+| 2018 | James  | 11,000 |
+| 2018 | Kate   | 12,000 |
+| 2018 | Sam    | 12,000 |
+
+**Query:**
+
+```sql
+SELECT year, person
+FROM income_table
+WHERE income > 11,000
+```
+
+**Results:**
+
+| Year | Person |
+| :--- | :----- |
+| 2017 | Kate   |
+| 2018 | Kate   |
+| 2018 | Sam    |
+
+In other words, the output of the query is the intersect of the `SELECT` and `WHERE` clauses.
+
+#### Dimensions vs Metrics
+
+Dimensions are attributes of our data, they are not aggregated. Meanwhile metrics are quantitative measurements that are aggregated.
+
+The `GROUP BY` clause is added to the end of a query that contains aggregation functions in order to distinguish between the dimensions and metrics in the query.
+
+```sql
+SELECT  person
+        , COUNT(DISTINCT year) AS years
+        , SUM(income) AS money_earned
+FROM    income_table
+WHERE   year > 2016
+AND     income > 10,000
+GROUP BY person
+```
+
+| person | years | money_earned |
+| :----- | :---- | :----------- |
+| Kate   | 3     | 35,000       |
+| Sam    | 2     | 23,000       |
+| James  | 1     | 11,000       |
+
+#### Aggregation Functions
+
+Aggregation functions create metrics by performing a quantitative operation on a column.
+
+- `COUNT()` / `SUM()` / `AVG()` / `MAX()` / `MIN()`
+- `COUNT(*)` - counts the number of rows in the table
+- `COUNT(DISTINCT <column_name>)` - counts the number of unique values in a column
+- `COUNT(<column_name>)` - counts the number of rows in a column where there is a non-NULL value
+
+#### Additional Useful Syntax
+
+`IN` - enables the specification of multiple values to satisfy a criterion in a `WHERE` clause.
+`LIMIT XX` - limits the number of rows returned by a query to the first XX number of rows in the result set.
+`ORDER BY <column_name> ASC|DESC` - sorts the output by one or more of the columns in the resulting table (defaults to ASC)
+
+#### SQL Joins
+
+Joins are used to pull data from multiple tables into one, combined, output. They match rows from the tables based on one or more related columns, or keys.
+
+It’s important to consider which type of join correctly represents the data you’re trying to pull. Incorrectly joining data can result in the wrong data being pulled.
+
+A `VLOOKUP` is the equivalent of a `LEFT JOIN` in Excel.
+
+Note:
+- `LEFT JOIN` = `LEFT OUTER JOIN`
+- `RIGHT JOIN` = `RIGHT OUTER JOIN`
+- `INNER JOIN` = `JOIN`
+
+![SQL Joins](./img/joins.jpg)
+
+#### Aliases
+
+When you’re only using one table and you call on a column, it’s understood what table the field is coming from. However, when you’re calling on multiple tables in one query (as is the case when you’re joining two tables), aliases are used so you don’t have to use a table’s full name every time you call on it or a column it contains.
+
 #### Pandas
 
 Pandas is the standard Python library for data analysis. Think of it as “Excel for Python”. You can get pretty far in your career only knowing Pandas. As long as your data is small enough to keep your work confined to a single machine, Pandas should do the trick. Boris Paskhaver’s course on Pandas (referenced above) is an pretty thorough resource covering Pandas.

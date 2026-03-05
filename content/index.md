@@ -11,8 +11,10 @@ This is my personal knowledge base where I collect notes, thoughts, and ideas.
 ## Notes
 
 - [[A-Book-About-Food|A Book About Food]]
+- [[Bash]]
 - [[Calendar-Management|Calendar Management]]
 - [[Chicago]]
 - [[Data-Guide|Data Guide]]
 - [[Email-Management|Email Management]]
+- [[Git]]
 - [[Saying-No|Saying No]]
