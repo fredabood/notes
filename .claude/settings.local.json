@@ -19,7 +19,10 @@
       "Bash(dig:*)",
       "WebFetch(domain:notes.fredabood.com)",
       "Bash(curl:*)",
-      "Bash(gh run list:*)"
+      "Bash(gh run list:*)",
+      "Bash(git submodule add:*)",
+      "Bash(git rm:*)",
+      "Bash(git submodule:*)"
     ],
     "deny": [],
     "ask": []
