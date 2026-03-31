@@ -30,10 +30,10 @@ const config: QuartzConfig = {
           light: "#E7E9F0",           // Background - lighter blue-gray from fredabood.com
           lightgray: "#CED1DB",       // Slightly darker blue-gray for borders/accents
           gray: "#7A8390",            // Medium gray for secondary text
-          darkgray: "#025418",        // Main text - exact dark green from fredabood.com
-          dark: "#013410",            // Headings - darker green
-          secondary: "#027020",       // Links - medium green (complements the text)
-          tertiary: "#048832",        // Accent - brighter green
+          darkgray: "#3D6B44",        // Main text - evergreen from hero photo
+          dark: "#2F5736",            // Headings - darker evergreen
+          secondary: "#4D7D55",       // Links - lighter evergreen
+          tertiary: "#5E9167",        // Accent - brightest evergreen
           highlight: "rgba(2, 84, 24, 0.1)",   // Subtle green highlight
           textHighlight: "#E8F5E9",   // Light green for text selection
         },

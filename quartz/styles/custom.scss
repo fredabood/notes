@@ -59,53 +59,53 @@ article {
 // Sidebar styling - use dark green from fredabood.com
 .sidebar {
   // All text in sidebars uses dark green
-  color: #025418;
+  color: #3D6B44;
 
   // Headings in sidebars
   h1, h2, h3, h4, h5, h6 {
-    color: #025418;
+    color: #3D6B44;
   }
 
   // Links in sidebars
   a {
-    color: #025418;
+    color: #3D6B44;
 
     &:hover {
-      color: #027020; // Slightly lighter green on hover
+      color: #4D7D55; // Slightly lighter green on hover
     }
   }
 
   // Buttons in sidebars (Explorer, TOC toggle, etc.)
   button {
-    color: #025418;
+    color: #3D6B44;
 
     span {
-      color: #025418;
+      color: #3D6B44;
     }
   }
 
   // Explorer file/folder names
   .explorer-content {
     a {
-      color: #025418;
+      color: #3D6B44;
 
       &.active {
-        color: #027020;
+        color: #4D7D55;
         font-weight: 600;
       }
     }
 
     button span {
-      color: #025418;
+      color: #3D6B44;
     }
   }
 
   // Table of Contents
   .toc-content a {
-    color: #025418;
+    color: #3D6B44;
 
     &.in-view {
-      color: #027020;
+      color: #4D7D55;
       font-weight: 600;
     }
   }
@@ -113,31 +113,31 @@ article {
   // Backlinks
   .backlinks {
     h3 {
-      color: #025418;
+      color: #3D6B44;
     }
 
     a {
-      color: #025418;
+      color: #3D6B44;
     }
   }
 
   // Page title
   .page-title {
-    color: #025418;
+    color: #3D6B44;
   }
 
   // Folder icons
   .folder-icon {
-    color: #025418;
+    color: #3D6B44;
 
     &:hover {
-      color: #027020;
+      color: #4D7D55;
     }
   }
 
   // SVG icons
   svg {
-    fill: #025418;
-    stroke: #025418;
+    fill: #3D6B44;
+    stroke: #3D6B44;
   }
 }
