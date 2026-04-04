@@ -1,10 +1,7 @@
 name: Deploy Quartz to GitHub Pages
 
 on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+  workflow_dispatch: # Manual trigger only — CF Pages is now primary deploy target
 
 permissions:
   contents: read
